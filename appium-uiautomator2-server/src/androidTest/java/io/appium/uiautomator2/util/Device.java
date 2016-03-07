@@ -3,7 +3,7 @@ package io.appium.uiautomator2.util;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.uiautomator.UiDevice;
 
-public abstract class Device {
+public class Device {
     private static UiDevice uiDevice = null;
 
     public static final UiDevice getUiDevice() {
